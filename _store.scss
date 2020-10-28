@@ -1,0 +1,31 @@
+@import "_variable.scss";
+
+.clothestore {
+  position: relative;
+}
+.clothestore:hover {
+  transition: all 0.3s;
+}
+
+.clothestore-picture {
+  clip-path: circle();
+  width: 50rem;
+}
+.clothestore-picture:hover {
+  filter: sepia(50%);
+  opacity: 30%;
+}
+
+.clothestore:hover .clothestore-text {
+  color: color(black);
+  font-size: 2.9rem;
+  position: absolute;
+  top: 45%;
+  right: 13%;
+  transition: all 0.3s;
+}
+
+.clothestore-text {
+  font-size: 3rem;
+  color: white;
+}

@@ -7,6 +7,15 @@ body {
           box-sizing: border-box;
 }
 
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .button,
 .button:link,
 .button:visited {
@@ -15,7 +24,7 @@ body {
   background-color: #5d4037;
   color: #ffffff;
   width: 15vw;
-  height: 8vh;
+  height: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,7 +38,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   border-radius: 2rem;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -39,6 +48,91 @@ body {
   background-color: #ffffff;
   color: #212121;
   border: 4px solid #5d4037;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.shopping-parent {
+  width: 100rem;
+  height: 40rem;
+}
+
+.shopping {
+  width: 30vw;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.shopping:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 30%;
+  border-radius: 20rem;
+}
+
+.shopping-shoes {
+  border-radius: 30rem;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clothestore {
+  position: relative;
+}
+
+.clothestore:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.clothestore-picture {
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  width: 50rem;
+}
+
+.clothestore-picture:hover {
+  -webkit-filter: sepia(50%);
+          filter: sepia(50%);
+  opacity: 30%;
+}
+
+.clothestore:hover .clothestore-text {
+  color: #212121;
+  font-size: 2.9rem;
+  position: absolute;
+  top: 45%;
+  right: 13%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.clothestore-text {
+  font-size: 3rem;
+  color: white;
 }
 
 .container {
