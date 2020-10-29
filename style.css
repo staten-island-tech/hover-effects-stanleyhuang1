@@ -95,11 +95,6 @@ body {
   height: 60vh;
 }
 
-.clothestore:hover {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
 .clothestore-picture {
   -webkit-clip-path: circle();
           clip-path: circle();
@@ -107,25 +102,29 @@ body {
 }
 
 .clothestore-picture:hover {
-  -webkit-filter: sepia(50%);
-          filter: sepia(50%);
-  opacity: 40%;
+  -webkit-filter: sepia(30%);
+          filter: sepia(30%);
+  opacity: 45%;
 }
 
-.clothestore:hover .clothestore-text {
+.clothe-text {
+  font-size: 3rem;
+  color: white;
+}
+
+.clothestore:hover .clothe-text {
   color: #212121;
   font-size: 2.9rem;
   position: absolute;
-  top: 38%;
-  right: 13%;
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
-  text-decoration: underline;
+  top: 30%;
+  right: 18%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.clothestore-text {
-  font-size: 3rem;
+.clothestore-picture::after .clothe-text {
   color: white;
+  position: unset;
 }
 
 html,
