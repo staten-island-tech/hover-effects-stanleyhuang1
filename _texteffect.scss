@@ -1,0 +1,14 @@
+@import "_variable.scss";
+
+.text-effect {
+  font-size: 5rem;
+  background-image: url("media/texteffectclothe.jpg");
+  background-position: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  transform: scale(2);
+}

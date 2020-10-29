@@ -1,12 +1,12 @@
 @import "_variable.scss";
 @import "_button.scss";
 @import "_shopping.scss";
-@import "_gradient.scss";
 @import "_store.scss";
-
+@import "_texteffect.scss";
+@import "_pictures.scss";
 
 .container {
-  width: 80vw;
+  width: auto;
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
